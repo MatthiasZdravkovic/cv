@@ -166,7 +166,7 @@ export default function Page() {
         <section className="flex-1">
           <Section>
             <h2 className="text-xl font-bold">Skills</h2>
-            <div className="flex flex-wrap gap-1">
+            <div className="flex flex-wrap gap-1 justify-end">
               {RESUME_DATA.skills.map((skill) => {
                 return <Badge key={skill}>{skill}</Badge>;
               })}
@@ -175,7 +175,7 @@ export default function Page() {
 
           <Section>
             <h2 className="text-xl font-bold">Languages</h2>
-            <div className="flex flex-wrap gap-1">
+            <div className="flex flex-wrap gap-1 justify-end">
               {RESUME_DATA.languages.map((language) => {
                 return <Badge key={language}>{language}</Badge>;
               })}
