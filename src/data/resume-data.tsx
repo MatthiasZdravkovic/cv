@@ -118,11 +118,8 @@ export const RESUME_DATA = {
         "3D Web Application",
         "Symfony",
         "Template Engine Twig",
-        "Doctrine ORM",
         "Three.js",
         "Git",
-        "GitLab",
-        "Webpack Encore",
       ],
       description: "A real-time tracking 3D Web application for monitoring a marine drone in Australia.",
       logo: ConsultlyLogo,
@@ -132,8 +129,8 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Spermophilius",
-      techStack: ["Side Project", "Symfony", "Doctrine ORM", "Twig", "Three.js", "Git", "GitLab"],
+      title: "Squirrels",
+      techStack: [ "Symfony", "Twig","Git"],
       description:
         "Squirrel monitoring application. The application is used to manage the squirrels in the meadows.",
       logo: MonitoLogo,
@@ -144,7 +141,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Connect 4 AI",
-      techStack: ["School Project", "Python", "Alpha-Beta Pruning", "Minimax", "Evaluation Function"],
+      techStack: ["Alpha-Beta Pruning", "Minimax", "Evaluation Function"],
       description:
         "Connect 4 AI using Alpha-Beta Pruning and Minimax algorithm with an evaluation function.",
       logo: MonitoLogo,
@@ -153,9 +150,9 @@ export const RESUME_DATA = {
         href: "/",
       },
     },
-    {
+    /* {
       title: "Self-Driving Taxi",
-      techStack: ["School Project", "Python", "Reinforcement Learning", "Q-Learning"],
+      techStack: ["Reinforcement Learning", "Q-Learning"],
       description:
         "The agent learns to pick up the passenger and drop them into the desired location.",
       logo: CDGOLogo,
@@ -163,19 +160,8 @@ export const RESUME_DATA = {
         label: "/",
         href: "/",
       },
-    },
-    {
-      title: "GridWorld",
-      techStack: ["School Project", "Python", "Reinforcement Learning", "Markov Decision Process (MDP)"],
-      description:
-        "The agent learns to navigate the grid using Reinforcement Learning.",
-      logo: CDGOLogo,
-      link: {
-        label: "/",
-        href: "/",
-      },
-    },
-    {
+    }, */
+    /* {
       title: "Bidimensional Normal Law",
       techStack: ["School Project", "Python", "Matplotlib", "Numpy"],
       description:
@@ -185,6 +171,6 @@ export const RESUME_DATA = {
         label: "/",
         href: "/",
       },
-    },
+    }, */
   ],
 } as const;
