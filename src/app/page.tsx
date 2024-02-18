@@ -95,7 +95,7 @@ export default function Page() {
               </Avatar>
             </div>
             <Section>
-              <h2 className="text-xl font-bold">Work Experience</h2>
+              <h2 className="text-xl font-bold">Expérience professionnelle</h2>
               {RESUME_DATA.work.map((work) => {
                 return (
                   <Card key={work.company}>
@@ -135,7 +135,7 @@ export default function Page() {
               })}
             </Section>
             <Section>
-            <h2 className="text-xl font-bold">Skills</h2>
+            <h2 className="text-xl font-bold">Compétences</h2>
             <div className="flex flex-wrap gap-1">
               {RESUME_DATA.skills.map((skill) => {
                 return <Badge key={skill}>{skill}</Badge>;
@@ -144,7 +144,7 @@ export default function Page() {
           </Section>
 
           <Section>
-            <h2 className="text-xl font-bold">Languages</h2>
+            <h2 className="text-xl font-bold">Langages</h2>
             <div className="flex flex-wrap gap-1">
               {RESUME_DATA.languages.map((language) => {
                 return <Badge key={language}>{language}</Badge>;
@@ -156,13 +156,13 @@ export default function Page() {
 
         <section className="flex-1">
           <Section className="mb-4">
-                <h2 className="text-xl font-bold">About</h2>
+                <h2 className="text-xl font-bold">À propos de moi</h2>
                 <p className="text-pretty font-mono text-sm text-muted-foreground">
                   {RESUME_DATA.summary}
                 </p>
           </Section>
           <Section className="mb-4">
-              <h2 className="text-xl font-bold">Education</h2>
+              <h2 className="text-xl font-bold">Éducation</h2>
               {RESUME_DATA.education.map((education) => {
                 return (
                   <Card key={education.school}>
@@ -182,7 +182,7 @@ export default function Page() {
               })}
             </Section>
           <Section className="print-force-new-page scroll-mb-16">
-            <h2 className="text-xl font-bold">Recent Projects</h2>
+            <h2 className="text-xl font-bold">Projets récents</h2>
             <div className="-mx-3 grid grid-cols-1 gap-4">
               {RESUME_DATA.projects.map((project) => {
                 return (

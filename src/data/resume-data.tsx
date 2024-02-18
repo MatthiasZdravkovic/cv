@@ -25,11 +25,10 @@ export const RESUME_DATA = {
   location: "Strasbourg, Mulhouse, France",
   locationLink: "https://www.google.com/maps/place/Wrocław",
   about:
-    "Apprentice Software Engineer at CNRS - ENSISA",
+    "Apprenti Ingénieur Logiciel au CNRS - ENSISA",
   summary:
-      "I'm a passionate computer science student, with a strong interest for nearly everything. I'm currently working also next to my classes as a Software engineer apprentice at the CNRS. Learning new things, and solving problems is what I love to do.",
+      "Je suis un étudiant passionné d'informatique, avec un intérêt pour presque tout. Je travaille actuellement à côté de mes cours en tant qu'apprenti ingénieur logiciel au CNRS. J'aime apprendre de nouvelles choses et résoudre des problèmes.",
   avatarUrl: "https://i.imgur.com/XbLMNE9.jpeg",
-  //personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "matthias.zdravkovic@uha.fr",
     tel: "+33769046966",
@@ -49,47 +48,45 @@ export const RESUME_DATA = {
   education: [
     {
       school: "ENSISA",
-      degree: "Computer Science and Networks Engineer",
+      degree: "Ingénieur en Informatique et Réseaux",
       start: "2022",
       end: "2025",
     },
     {
       school: "ENSISA",
-      degree: "Preparatory classes integrated for the Grandes Ecoles",
+      degree: "Classes préparatoires intégrées pour les Grandes Ecoles",
       start: "2000",
       end: "2022",
     },
-
   ],
   work: [
     {
       company: "Institut Pluridisciplinaire Hubert Curien (IPHC, CNRS)",
       link: "https://iphc.cnrs.fr/",
-      badges: ["Apprenticeship"],
-      title: "Software Engineer Apprentice",
+      badges: ["Apprentissage"],
+      title: "Apprenti Ingénieur Logiciel",
       logo: ParabolLogo,
       start: "2023",
       end: "2025",
       description:
-        "Real-time tracking 3D Web application for monitoring a marine drone in Australia, and maintenance of applications for animals (squirrels, tits). Technologies used: Symfony, Doctrine ORM, Three.js, git, GitLab.",
+        "Application Web 3D de suivi en temps réel pour la surveillance d'un drone marin en Australie, et maintenance d'applications pour animaux (écureuils, mésanges). Technologies utilisées : Symfony, Doctrine ORM, Three.js, git, GitLab.",
     },
     {
       company: "LEGOLAND® New York Resort",
       link: "https://www.legoland.com/new-york/",
-      badges: ["International experience"],
-      title: "Attraction Operator",
+      badges: ["Expérience internationale"],
+      title: "Opérateur d'attraction",
       logo: ParabolLogo,
-      start: "June 2023",
-      end: "August 2023",
+      start: "Juin 2023",
+      end: "Août 2023",
       description:
-        "Management of attractions, management of queues and guests. I was ensuring the safety, hospitality, and memorable experience of guests at the resort."
-
+        "Gestion des attractions, gestion des files d'attente et des invités. J'assurais la sécurité, l'hospitalité et une expérience mémorable pour les invités du parc."
     }
   ],
   skills: [
-    "Maths for Datascience",
-    "Reinforcement learning",
-    "Machine learning",
+    "Maths Data Sciences",
+    "Apprentissage par renforcement",
+    "Apprentissage automatique",
     "Business Intelligence",
     "Python",
     "Pandas",
@@ -101,27 +98,27 @@ export const RESUME_DATA = {
     "UML",
     "Framework Symfony",
     "MySQL",
-    "Object-Relational Mapping (ORM)",
+    "Mappage objet-relationnel (ORM)",
     "Git/Gitlab",
-    "Networks"
+    "Réseaux"
   ],
   languages: [
-    "English C1, TOEIC: 950",
-    "French Native",
-    "Serbian B2-C1",
-    "German B1"
+    "Anglais C1, TOEIC: 950",
+    "Français Natif",
+    "Serbe B2-C1",
+    "Allemand B1"
   ],
   projects: [
     {
       title: "Apex",
       techStack: [
-        "3D Web Application",
+        "Application Web 3D",
         "Symfony",
-        "Template Engine Twig",
+        "Moteur de template Twig",
         "Three.js",
         "Git",
       ],
-      description: "A real-time tracking 3D Web application for monitoring a marine drone in Australia.",
+      description: "Une application Web 3D de suivi en temps réel pour la surveillance d'un drone marin en Australie.",
       logo: ConsultlyLogo,
       link: {
         label: "/",
@@ -129,10 +126,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Squirrels",
+      title: "Écureuils",
       techStack: [ "Symfony", "Twig","Git"],
       description:
-        "Squirrel monitoring application. The application is used to manage the squirrels in the meadows.",
+        "Application de surveillance des écureuils. L'application est utilisée pour gérer les écureuils dans les prairies.",
       logo: MonitoLogo,
       link: {
         label: "/",
@@ -141,36 +138,14 @@ export const RESUME_DATA = {
     },
     {
       title: "Connect 4 AI",
-      techStack: ["Alpha-Beta Pruning", "Minimax", "Evaluation Function"],
+      techStack: ["Élagage Alpha-Beta", "Minimax", "Fonction d'évaluation"],
       description:
-        "Connect 4 AI using Alpha-Beta Pruning and Minimax algorithm with an evaluation function.",
+        "IA pour le jeu Connect 4 utilisant l'élagage Alpha-Beta et l'algorithme Minimax avec une fonction d'évaluation.",
       logo: MonitoLogo,
       link: {
         label: "/",
         href: "/",
       },
     },
-    /* {
-      title: "Self-Driving Taxi",
-      techStack: ["Reinforcement Learning", "Q-Learning"],
-      description:
-        "The agent learns to pick up the passenger and drop them into the desired location.",
-      logo: CDGOLogo,
-      link: {
-        label: "/",
-        href: "/",
-      },
-    }, */
-    /* {
-      title: "Bidimensional Normal Law",
-      techStack: ["School Project", "Python", "Matplotlib", "Numpy"],
-      description:
-        "Isodensity ellipse, probability that a point belongs to a certain area.",
-      logo: CDGOLogo,
-      link: {
-        label: "/",
-        href: "/",
-      },
-    }, */
   ],
 } as const;
